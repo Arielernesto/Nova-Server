@@ -1,0 +1,31 @@
+{
+  "name": "@nova/server",
+  "version": "1.0.0",
+  "description": "Todo lo q necesitas en un solo framework",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon --watch src --watch dist --exec ts-node --swc ./src/index.ts",
+    "start": "nodemon --exec ts-node init.js"
+  },
+  "keywords": [
+    "SSR",
+    "Nova",
+    "server",
+    "framework",
+    "utils"
+  ],
+  "author": "nightmare_02",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/cli": "0.4.0",
+    "@swc/core": "1.6.6",
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "5.0.0",
+    "@types/node": "22.10.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.2"
+  },
+  "dependencies": {
+  }
+}
