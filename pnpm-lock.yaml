@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       nova-engine:
-        specifier: 1.0.2
-        version: 1.0.2
+        specifier: 1.0.3
+        version: 1.0.3
     devDependencies:
       '@swc/cli':
         specifier: 0.4.0
@@ -541,6 +541,9 @@ packages:
 
   nova-engine@1.0.2:
     resolution: {integrity: sha512-whKvuK4IVreEqoI0UayXZ4nZfNZPLubVomfqrR2G5TgAUcGqWzoo0aFhIRm0hzaeTpAGFo3PQ8q3co5AJHPQ0A==, tarball: https://registry.npmjs.org/nova-engine/-/nova-engine-1.0.2.tgz}
+
+  nova-engine@1.0.3:
+    resolution: {integrity: sha512-pW/g8gzs3WhxFlT1950icafTWq2T6hgfXP2JLhqo8FyXh21x7Go8XaXdSzoc7hlke5xpWSkEWML96EPF+FyWpA==, tarball: https://registry.npmjs.org/nova-engine/-/nova-engine-1.0.3.tgz}
 
   npm-run-path@2.0.2:
     resolution: {integrity: sha512-lJxZYlT4DW/bRUtFh1MQIWqmLwQfAxnqWG4HhEdjMlkrJYnJn0Jrr2u3mgxqaWsdiBc76TYkTG/mhrnYTuzfHw==, tarball: https://registry.npmjs.org/npm-run-path/-/npm-run-path-2.0.2.tgz}
@@ -1286,6 +1289,10 @@ snapshots:
   normalize-url@6.1.0: {}
 
   nova-engine@1.0.2: {}
+
+  nova-engine@1.0.3:
+    dependencies:
+      nova-engine: 1.0.2
 
   npm-run-path@2.0.2:
     dependencies:
