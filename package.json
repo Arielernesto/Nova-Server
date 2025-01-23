@@ -1,5 +1,5 @@
 {
-  "name": "@nova/server",
+  "name": "nova",
   "version": "1.0.0",
   "description": "Todo lo q necesitas en un solo framework",
   "main": "src/index.ts",
