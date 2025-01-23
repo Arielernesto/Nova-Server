@@ -1,5 +1,5 @@
 {
-  "name": "nova",
+  "name": "nova-engine",
   "version": "1.0.0",
   "description": "Todo lo q necesitas en un solo framework",
   "main": "src/index.ts",
