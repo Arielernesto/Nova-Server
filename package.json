@@ -2,12 +2,11 @@
   "name": "nova-engine",
   "version": "1.0.2",
   "description": "Todo lo q necesitas en un solo framework",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon --watch src --watch dist --exec ts-node --swc ./src/index.ts",
     "start": "nodemon --exec ts-node init.js"
   },
-  "type": "module",
   "keywords": [
     "SSR",
     "Nova",

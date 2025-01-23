@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "emitDeclarationOnly": false,
+      "outDir": "./dist",
+      "target": "ES6",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true
+    },
+    "include": ["dist/**/*"],
+    "exclude": ["node_modules"]
+  }
+  

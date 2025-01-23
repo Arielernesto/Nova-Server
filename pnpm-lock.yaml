@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       nova-engine:
-        specifier: 1.0.1
-        version: 1.0.1
+        specifier: 1.0.2
+        version: 1.0.2
     devDependencies:
       '@swc/cli':
         specifier: 0.4.0
@@ -539,8 +539,8 @@ packages:
     resolution: {integrity: sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==, tarball: https://registry.npmjs.org/normalize-url/-/normalize-url-6.1.0.tgz}
     engines: {node: '>=10'}
 
-  nova-engine@1.0.1:
-    resolution: {integrity: sha512-lB2nFd8dprlTgGC2vzzDJJnIjTBllDgAK7wiCs1z4aKnkD1fputLv5GnGUxBPEvyQmRaojr9qflmt8d7mBtAhQ==, tarball: https://registry.npmjs.org/nova-engine/-/nova-engine-1.0.1.tgz}
+  nova-engine@1.0.2:
+    resolution: {integrity: sha512-whKvuK4IVreEqoI0UayXZ4nZfNZPLubVomfqrR2G5TgAUcGqWzoo0aFhIRm0hzaeTpAGFo3PQ8q3co5AJHPQ0A==, tarball: https://registry.npmjs.org/nova-engine/-/nova-engine-1.0.2.tgz}
 
   npm-run-path@2.0.2:
     resolution: {integrity: sha512-lJxZYlT4DW/bRUtFh1MQIWqmLwQfAxnqWG4HhEdjMlkrJYnJn0Jrr2u3mgxqaWsdiBc76TYkTG/mhrnYTuzfHw==, tarball: https://registry.npmjs.org/npm-run-path/-/npm-run-path-2.0.2.tgz}
@@ -1285,7 +1285,7 @@ snapshots:
 
   normalize-url@6.1.0: {}
 
-  nova-engine@1.0.1: {}
+  nova-engine@1.0.2: {}
 
   npm-run-path@2.0.2:
     dependencies:
