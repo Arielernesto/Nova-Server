@@ -14,6 +14,9 @@
     "framework",
     "utils"
   ],
+  "publishConfig": {
+  "access": "public"
+  },
   "author": "nightmare_02",
   "license": "MIT",
   "devDependencies": {
