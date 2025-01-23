@@ -67,7 +67,7 @@ http.ServerResponse.prototype.sendFile = function (filePath: string) {
 type NextFunction = (err?: any) => void;
 type RequestHandler = (req: IncomingMessage & { params?: { [key: string]: string }; body?: any }, res: ExtendedServerResponse, next: NextFunction) => void;
 
-class FastExpress {
+class Nova {
   private middlewares: RequestHandler[] = [];
   private routes: { method: string, path: string, keys: string[], regexp: RegExp, handler: RequestHandler }[] = [];
   private errorHandler: RequestHandler = (err, req, res, next) => {
@@ -177,4 +177,4 @@ class FastExpress {
   }
 }
 
-export default FastExpress;
+export default Nova;

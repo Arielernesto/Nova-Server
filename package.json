@@ -1,8 +1,8 @@
 {
   "name": "nova-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Todo lo q necesitas en un solo framework",
-  "main": "src/index.ts",
+  "main": "dist/index.ts",
   "scripts": {
     "dev": "nodemon --watch src --watch dist --exec ts-node --swc ./src/index.ts",
     "start": "nodemon --exec ts-node init.js"
@@ -15,7 +15,7 @@
     "utils"
   ],
   "publishConfig": {
-  "access": "public"
+    "access": "public"
   },
   "author": "nightmare_02",
   "license": "MIT",
@@ -30,5 +30,6 @@
     "typescript": "5.7.2"
   },
   "dependencies": {
+    "nova-engine": "^1.0.0"
   }
 }
